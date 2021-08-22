@@ -1,28 +1,30 @@
-.navbar ul {
+
+*,
+*::after,
+*::before {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html,body {
+    font-size: 62.5%;
+    min-height: 100%;
+}
+
+
+
+
+.navbar-container ul {
   list-style-type:none ;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
 }
 
-.navbar li{
-    display: inline-block;
-}
-
-/* .navbar-left{
-    float: left;
-}
-
-.navbar-right{
-    float:right;
-} */
-
-.navbar a{
+.navbar-container a{
     text-decoration: none;
-    display: block;
-    padding: 14px 16px;
-    /* text-align: center; */
 }
+
+
+
+
+
